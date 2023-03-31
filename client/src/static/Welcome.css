@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script&family=Patrick+Hand&family=Prompt&family=Roboto+Slab&display=swap');
+
+.welcome {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    box-shadow: 4px 4px 4px rgb(247, 208, 101);
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcO2fCtr3paw-mSnB8QJTWQ7mS7gMg2WXKCBL34130jc2xtB6N);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header {
+    font-size: calc(100px + 2vmin);
+    border: 2px 2px 2px solid rgb(247, 208, 101);
+    font-family: 'Dancing Script', cursive;
+}
+
+.intro{
+    margin-top: 50px;
+    font-size: calc(10px + 2vmin);
+}

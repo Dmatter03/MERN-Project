@@ -1,0 +1,42 @@
+.container-top {
+    display: flex;
+    gap: 90px;
+    padding: 5%;
+    border-bottom: groove;
+    border-color: rgba(247, 208, 101, 0.301);
+}
+
+
+.p-container{
+    border: groove;
+    border-color: rgba(247, 208, 101, 0.301);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.profilePic{
+    border-radius: 50%;
+}
+
+.user-info{
+    width: 500px;
+    border: groove;
+    border-color: rgba(247, 208, 101, 0.301);
+}
+
+.info-header{
+    border-bottom: groove;
+    border-color: rgba(247, 208, 101, 0.301);
+    display: flex;
+    justify-content: center;
+}
+
+.info-body{
+    display: flex;
+    gap: 110px;
+    margin-left: 4%;
+    margin-top: 2%;
+}

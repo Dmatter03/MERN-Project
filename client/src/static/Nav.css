@@ -1,0 +1,42 @@
+
+.nav-container{
+    display: flex;
+    gap: 50%;
+    background-color: rgb(247, 208, 101);
+    box-shadow: 4px 4px 4px #e0d9c5;
+    padding-left: 10%;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav h3{
+    margin: 0;
+}
+
+.nav img{
+    height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 50px
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: calc(7px + 2vmin)
+}
