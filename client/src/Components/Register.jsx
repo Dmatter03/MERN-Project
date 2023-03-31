@@ -37,9 +37,9 @@ const RegisterForm = ({submitHandler }) => {
                     <p>Email:</p>
                     <input type="text" className='form-control ' onChange={(e) => setEmail(e.target.value)} />
                     <p>Password:</p>
-                    <input type="text" className='form-control ' onChange={(e) => setPassword(e.target.value)} />
+                    <input type="password" className='form-control ' onChange={(e) => setPassword(e.target.value)} />
                     <p>Confirm Password:</p>
-                    <input type="text" className='form-control ' onChange={(e) => setConfirmPassword(e.target.value)} />
+                    <input type="password" className='form-control ' onChange={(e) => setConfirmPassword(e.target.value)} />
                     <div className="mt-4 text-end">
                         <button className="btn btn-lg btn-secondary " >Register !</button>
                     </div>

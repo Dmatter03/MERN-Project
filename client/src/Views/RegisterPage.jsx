@@ -15,8 +15,8 @@ const RegisterPage = () => {
             console.log(response)
             nav('/users')
         })
-        .catch((err) => {
-            console.log(err.response)
+        .catch((error) => {
+            console.log(error.response)
         })
     }
 
@@ -28,7 +28,7 @@ const RegisterPage = () => {
     return(
         <div>
             <NavBar />
-            <RegisterForm submitHandler={submitHandler}  />
+            <RegisterForm submitHandler={submitHandler}   />
         </div>
     )
 }

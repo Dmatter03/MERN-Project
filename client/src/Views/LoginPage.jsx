@@ -11,14 +11,15 @@ const LoginPage = () => {
     const nav = useNavigate();
     const [user, setUser] = useState();
 
+
     const submitHandler = (savedUser) => {
         axios.post('http://localhost:8000/api/login', savedUser, {withCredentials:true})
         .then((response) => {
             console.log(response)
             nav('/users')
         })
-        .catch((err) => {
-            console.log(err.response)
+        .catch((error) => {
+            console.log(error.response)
         })
     }
 
@@ -30,7 +31,7 @@ const LoginPage = () => {
     return(
         <div>
             <NavBar />
-            <LoginForm submitHandler={submitHandler} />
+            <LoginForm submitHandler={submitHandler}  />
         </div>
     )
 }

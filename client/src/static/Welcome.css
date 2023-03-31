@@ -15,7 +15,7 @@
 
 .header {
     font-size: calc(100px + 2vmin);
-    border: 2px 2px 2px solid rgb(247, 208, 101);
+    /* border: 2px 2px 2px solid rgb(247, 208, 101); */
     font-family: 'Dancing Script', cursive;
 }
 

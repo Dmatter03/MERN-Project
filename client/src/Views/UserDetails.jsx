@@ -55,8 +55,8 @@ const UserDetails = () => {
                                 <p>Total Brightness:</p>
                             </div>
                             <div>
-                                <p>52</p>
-                                <p>100</p>
+                                <p>1</p>
+                                <p>1</p>
                             </div>
                         </div>
                     </div>
